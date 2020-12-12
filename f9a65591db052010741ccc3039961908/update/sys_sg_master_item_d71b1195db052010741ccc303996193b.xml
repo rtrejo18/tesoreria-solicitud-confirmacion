@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Solicitud de confirmación de depósitos bancarios Form Screen">971b1195db052010741ccc3039961937</embedded_screen>
+        <item_view display_value="Solicitud de confirmación de depósitos bancarios List Screen Item View">9b1b1195db052010741ccc3039961934</item_view>
+        <name>Solicitud de confirmación de depósitos bancarios master_item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-12 00:14:01</sys_created_on>
+        <sys_id>d71b1195db052010741ccc303996193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Solicitud de confirmación de depósitos bancarios master_item</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_update_name>sys_sg_master_item_d71b1195db052010741ccc303996193b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-12 00:14:01</sys_updated_on>
+    </sys_sg_master_item>
+</record_update>
