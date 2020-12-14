@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="INSERT_OR_UPDATE">
+        <button display_value="New Button (Solicitud de confirmación de depósitos bancarios)">131b1195db052010741ccc3039961945</button>
+        <button_parent_table>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</button_parent_table>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>source_field</default_value_type>
+        <field_name>number</field_name>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>text</input_type>
+        <mandatory>false</mandatory>
+        <max_entries/>
+        <multi_entry>false</multi_entry>
+        <multi_select>false</multi_select>
+        <name>Number</name>
+        <order/>
+        <parameter_type>button</parameter_type>
+        <placeholder/>
+        <screen/>
+        <search_type>starts_with</search_type>
+        <source_field/>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-12 00:14:02</sys_created_on>
+        <sys_id>d31b1195db052010741ccc3039961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Number</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_d31b1195db052010741ccc3039961947</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-12 00:14:02</sys_updated_on>
+        <table_name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</table_name>
+    </sys_sg_ui_parameter>
+    <sys_translated_text action="delete_multiple" query="documentkey=d31b1195db052010741ccc3039961947"/>
+</record_update>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" element="NULL" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">34302199db052010741ccc30399619d4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-12 00:36:15</sys_created_on>
+            <sys_id>bc302199db052010741ccc30399619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-12 00:36:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>banco</element>
+            <list_id display_value="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" element="NULL" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">34302199db052010741ccc30399619d4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-12 00:36:15</sys_created_on>
+            <sys_id>b4302199db052010741ccc30399619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-12 00:36:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cuenta</element>
+            <list_id display_value="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" element="NULL" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">34302199db052010741ccc30399619d4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-12 00:36:15</sys_created_on>
+            <sys_id>38302199db052010741ccc30399619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-12 00:36:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>divisa</element>
+            <list_id display_value="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" element="NULL" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">34302199db052010741ccc30399619d4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-12 00:36:15</sys_created_on>
+            <sys_id>b8302199db052010741ccc30399619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-12 00:36:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fecha</element>
+            <list_id display_value="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" element="NULL" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">34302199db052010741ccc30399619d4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-12 00:36:15</sys_created_on>
+            <sys_id>3c302199db052010741ccc30399619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-12 00:36:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>importe</element>
+            <list_id display_value="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" element="NULL" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">34302199db052010741ccc30399619d4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-12 00:36:15</sys_created_on>
+            <sys_id>bc302199db052010741ccc30399619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-12 00:36:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>informaci_n_adicional</element>
+            <list_id display_value="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" element="NULL" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">34302199db052010741ccc30399619d4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-12 00:36:15</sys_created_on>
+            <sys_id>30302199db052010741ccc30399619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-12 00:36:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>n_mero_de_contrato</element>
+            <list_id display_value="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" element="NULL" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">34302199db052010741ccc30399619d4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-12 00:36:15</sys_created_on>
+            <sys_id>b0302199db052010741ccc30399619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-12 00:36:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>titular</element>
+            <list_id display_value="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" element="NULL" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">34302199db052010741ccc30399619d4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-12 00:36:15</sys_created_on>
+            <sys_id>34302199db052010741ccc30399619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-12 00:36:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-12 00:36:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34302199db052010741ccc30399619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</sys_name>
+            <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+            <sys_update_name>sys_ui_list_x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-12 00:36:15</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
