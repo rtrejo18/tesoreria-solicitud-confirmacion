@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="estatus" table="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>estatus</element>
+            <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-15 20:59:28</sys_created_on>
+            <sys_id>c4f4d12adb412010741ccc30399619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>estatus</sys_name>
+            <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+            <sys_update_name>sys_choice_x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios_estatus</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-15 20:59:28</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estatus</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nuevo</label>
+            <language>en</language>
+            <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-16 06:22:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b955feadb852010741ccc30399619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-16 06:22:58</sys_updated_on>
+            <value>NU</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estatus</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pendiente de vaildación</label>
+            <language>en</language>
+            <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-15 21:03:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ad5552adb412010741ccc30399619aa</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-15 22:18:15</sys_updated_on>
+            <value>PV</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estatus</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Autorizado</label>
+            <language>en</language>
+            <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-15 21:00:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a25952adb412010741ccc303996197d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-15 22:18:29</sys_updated_on>
+            <value>AU</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>estatus</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rechazado</label>
+            <language>en</language>
+            <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-15 21:02:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6865d12adb412010741ccc30399619f9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-15 22:18:43</sys_updated_on>
+            <value>RE</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
