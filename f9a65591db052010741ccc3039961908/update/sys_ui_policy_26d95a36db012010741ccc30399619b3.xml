@@ -21,6 +21,7 @@
 	g_form.setReadOnly('titular',true);		
 	g_form.setReadOnly('n_mero_de_contrato',true);
 	g_form.setReadOnly('estatus',false);
+	g_form.setReadOnly('motivo_de_rechazo',false);
 }]]></script_true>
         <set_values/>
         <short_description>UI Policy Pendiente</short_description>
@@ -30,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>26d95a36db012010741ccc30399619b3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>UI Policy Pendiente</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
@@ -38,7 +39,7 @@
         <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
         <sys_update_name>sys_ui_policy_26d95a36db012010741ccc30399619b3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-16 20:41:39</sys_updated_on>
+        <sys_updated_on>2020-12-16 21:58:15</sys_updated_on>
         <table>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</table>
         <ui_type>0</ui_type>
         <view/>
