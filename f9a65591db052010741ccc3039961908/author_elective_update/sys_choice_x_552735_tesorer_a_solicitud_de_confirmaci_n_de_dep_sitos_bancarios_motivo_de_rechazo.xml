@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="motivo_de_rechazo" table="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>motivo_de_rechazo</element>
+            <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-14 23:07:01</sys_created_on>
+            <sys_id>3a88e816db052010741ccc30399619d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>motivo_de_rechazo</sys_name>
+            <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+            <sys_update_name>sys_choice_x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios_motivo_de_rechazo</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-14 23:07:01</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>RE</dependent_value>
+            <element>motivo_de_rechazo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- New choice --</label>
+            <language>en</language>
+            <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-14 23:07:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe88e816db052010741ccc30399619d1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-15 22:29:42</sys_updated_on>
+            <value>-- New choice --</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>RE</dependent_value>
+            <element>motivo_de_rechazo</element>
+            <hint>Comprobante  ilegible</hint>
+            <inactive>false</inactive>
+            <label>1. Comprobante  ilegible</label>
+            <language>en</language>
+            <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-14 23:10:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ca86c16db052010741ccc303996195f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-15 22:29:46</sys_updated_on>
+            <value>ilegible</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>RE</dependent_value>
+            <element>motivo_de_rechazo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2. Comprobante incompleto</label>
+            <language>en</language>
+            <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-15 21:18:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85f8d1eadb412010741ccc30399619e9</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-15 22:29:55</sys_updated_on>
+            <value>incompleto</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>RE</dependent_value>
+            <element>motivo_de_rechazo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3. Comprobante  no corresponde a la operacion solictada</label>
+            <language>en</language>
+            <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-15 21:19:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f391daadb412010741ccc3039961919</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-15 22:29:59</sys_updated_on>
+            <value>no_corresponde</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>PV</dependent_value>
+            <element>motivo_de_rechazo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4. Depósito devuelto o rechazado</label>
+            <language>en</language>
+            <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-15 21:19:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0079d1eadb412010741ccc30399619ef</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-15 22:24:22</sys_updated_on>
+            <value>devuelto_rechazado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>PV</dependent_value>
+            <element>motivo_de_rechazo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5. Depósito pertenece a otra empresa</label>
+            <language>en</language>
+            <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-15 21:20:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e799d5eadb412010741ccc3039961983</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-15 22:24:28</sys_updated_on>
+            <value>pertenece_otra_empresa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>PV</dependent_value>
+            <element>motivo_de_rechazo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6. Contrato cancelado</label>
+            <language>en</language>
+            <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
+            <sequence>15</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-15 21:23:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b15a112edb412010741ccc3039961976</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-15 22:24:38</sys_updated_on>
+            <value>contrato_cancelado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>PV</dependent_value>
+            <element>motivo_de_rechazo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>7. Referencia no correponde al contrato solictado</label>
+            <language>en</language>
+            <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
+            <sequence>17</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-15 21:24:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>959a912edb412010741ccc30399619d6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-15 22:24:44</sys_updated_on>
+            <value>referencia_no_corresponde</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>PV</dependent_value>
+            <element>motivo_de_rechazo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8. Spei  o Spid devuelto</label>
+            <language>en</language>
+            <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
+            <sequence>18</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-15 21:25:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9ead52edb412010741ccc30399619be</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-15 22:24:57</sys_updated_on>
+            <value>spei_spid_devuelto</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
