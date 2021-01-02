@@ -12,15 +12,17 @@
         <model_id/>
         <model_table/>
         <on_load>true</on_load>
-        <order>100</order>
+        <order>301</order>
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>true</run_scripts>
         <script_false/>
         <script_true><![CDATA[function onCondition() {
 	g_form.setReadOnly('titular',true);		
 	g_form.setReadOnly('n_mero_de_contrato',true);
-	//g_form.setReadOnly('estatus',true);
-	//g_form.setReadOnly('motivo_de_rechazo',true);
+	g_form.setVisible('estatus',true);
+	g_form.setVisible('motivo_de_rechazo',true);
+	g_form.setReadOnly('estatus',true);
+	g_form.setReadOnly('motivo_de_rechazo',true);
 }]]></script_true>
         <set_values/>
         <short_description>UI Policy Contrato</short_description>
@@ -30,7 +32,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>578e762edb452010741ccc3039961940</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>UI Policy Contrato</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
@@ -38,7 +40,7 @@
         <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
         <sys_update_name>sys_ui_policy_578e762edb452010741ccc3039961940</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-16 22:27:57</sys_updated_on>
+        <sys_updated_on>2020-12-18 05:56:31</sys_updated_on>
         <table>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</table>
         <ui_type>0</ui_type>
         <view/>
