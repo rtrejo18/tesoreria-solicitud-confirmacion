@@ -1,60 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
     <sys_ui_page action="INSERT_OR_UPDATE">
         <category>general</category>
-        <client_script><![CDATA[function seleccionado() {
-    g_form.setValue('n_mero_de_contrato', '19841289');
-    g_form.setValue('titular', 'Ricardo Trejo Mendoza');
-
+        <client_script><![CDATA[function seleccionado(idContrato,titular) {
+    g_form.setValue('n_mero_de_contrato', idContrato);
+    g_form.setValue('titular', titular);
+	g_form.setDisabled("n_mero_de_contrato",true);
+	g_form.setDisabled("titular",true);
     var o = GlideModal.prototype.get('x_552735_tesorer_a_UI Buscar Contrato');
     o.destroy();
 }
 
 function buscar() {
-
-    var userDetails = new GlideAjax('mnx_scdb_cliente_obtener_contratos'); //script include UserDetailsUtil
-
-    userDetails.addParam("sysparm_name", "getValidation"); //this is the function within the script include
+	try{
+		var userDetails = new GlideAjax('mnx_scdb_cliente_obtener_contratos'); //script include UserDetailsUtil
+	userDetails.addParam("sysparm_name", "getValidation"); //this is the function within the script include
     //alert(document.getElementById("numeroContrato").value);
     userDetails.addParam("idContrato", document.getElementById("numeroContrato").value);
     userDetails.getXMLAnswer(function(response) {
-    var jsonResponse = JSON.parse(response);		
-	
-	var html_message ="";
-	if(jsonResponse.length >0){
-	 html_message +="<div class='alert alert-success alert-dismissible col-xs-12' id='message'> chinga tu madre</div>";		
-	 var html = "";
-        html += "<table class='table table-hover'>";
-        html += "<thead>";
-        html += "<tr>";
-        html += "<th style='text-align:center'>Seleccionar</th>";
-        html += "<th style='text-align:center'>Número de contrato</th>";
-        html += "<th style='text-align:center'>Titular</th>";
-        html += "</tr>";
-        html += "</thead>";
-        html += "<tbody>";
+        var jsonResponse = JSON.parse(response);
 
-        for (var i = 0; i < jsonResponse.length; i++) {
+        var html_message = "";
+
+        if (jsonResponse.length > 0) {
+            html_message += "<div class='alert alert-success alert-dismissible col-xs-12 ' id='message'>";
+            html_message += "<a href='#' class='close' data-dismiss='alert' aria-label='close'>x</a>";
+            html_message += "<strong>INFO.</strong> Registros encontrados "+jsonResponse.length;
+            html_message += "</div>";
+
+            var html = "<table class='table table-hover'>";
+            html += "<thead>";
             html += "<tr>";
-            html += "<td style='text-align:center'>";
-			html += "<input type='radio' onclick='seleccionado()' id='male' name='gender' value='" + jsonResponse[i].idContrato + "'></td>";
-            html += "<td style='text-align:center'>" + jsonResponse[i].idContrato + "</td>";
-            html += "<td style='text-align:center'>" + jsonResponse[i].nombreTitular + "</td>";
+            html += "<th style='text-align:center'>Seleccionar</th>";
+            html += "<th style='text-align:center'>Número de contrato</th>";
+            html += "<th style='text-align:center'>Titular</th>";
             html += "</tr>";
+            html += "</thead>";
+            html += "<tbody>";
+
+            for (var i = 0; i < jsonResponse.length; i++) {
+                html += "<tr>";
+                html += "<td style='text-align:center'>";
+                html += "<input type='radio' onclick='seleccionado("+jsonResponse[i].idContrato+",\""+jsonResponse[i].nombreTitular+"\");' id='male' name='gender' value=''</td>";
+                html += "<td style='text-align:center'>" + jsonResponse[i].idContrato + "</td>";
+                html += "<td style='text-align:center'>" + jsonResponse[i].nombreTitular + "</td>";
+                html += "</tr>";
+            }
+
+            html += "</tbody>";
+            html += "</table>";
+
+            document.getElementById("message").innerHTML = html_message;
+            document.getElementById("printableArea").innerHTML = html;
+        } else {
+            html_message += "<div class='alert alert-success alert-dismissible col-xs-12 ' id='message'>";
+            html_message += "<a href='#' class='close' data-dismiss='alert' aria-label='close'>x</a>";
+            html_message += "<strong>INFO. No existe información";
+            html_message += "</div>";
+            document.getElementById("message").innerHTML = html_message;
         }
-
-        html += "</tbody>";
-        html += "</table>";
-		
-		document.getElementById("message").innerHTML = html_message;
-		document.getElementById("printableArea").innerHTML = html;
-	}else{
-		html_message +="<div class='alert alert-success alert-dismissible col-xs-12 ' id='message'> chinga tu madre 2</div>";
-		document.getElementById("message").innerHTML = html_message;
-	}
     });
-
-
+  }catch(exeception){
+	html_message += "<div class='alert alert-danger alert-dismissible col-xs-12 ' id='message'>";
+    html_message += "<a href='#' class='close' data-dismiss='alert' aria-label='close'>x</a>";
+    html_message += "<strong>Error!</strong> Ocurrio No está disponible el servicio";
+    html_message += "</div>";
+    document.getElementById("message").innerHTML = html_message;
+  }
 }
+
 function cancelar() {
     var o = GlideModal.prototype.get('x_552735_tesorer_a_UI Buscar Contrato');
     o.destroy();
@@ -70,15 +83,13 @@ function cancelar() {
 
 <div class="form-group">
 	<div class="col-xs-12" id="message"></div>
-	
 <div class="col-sm-12" id="printableArea">
  <form class="form-horizontal text-align: left">
   <div class="form-group">
 	  <label class="control-label col-sm-3"  style="text-align: left" for="labelNumeroContrato">Número de de contrato:</label>
 	  <div class="col-sm-9">
 	  <input  class="form-control" style="text-align: left" id="numeroContrato"></input>
-	  </div>
-	  
+	  </div>  
 	  </div>
   <div class="form-group">
 </div>
@@ -104,13 +115,13 @@ function cancelar() {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-12 23:43:48</sys_created_on>
         <sys_id>75fc92a1db012010741ccc3039961998</sys_id>
-        <sys_mod_count>272</sys_mod_count>
+        <sys_mod_count>300</sys_mod_count>
         <sys_name>UI Buscar Contrato</sys_name>
         <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
         <sys_policy/>
         <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
         <sys_update_name>sys_ui_page_75fc92a1db012010741ccc3039961998</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-02 05:40:36</sys_updated_on>
+        <sys_updated_on>2021-01-04 16:58:23</sys_updated_on>
     </sys_ui_page>
 </record_update>

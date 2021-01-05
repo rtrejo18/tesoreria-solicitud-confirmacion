@@ -10,9 +10,9 @@
         <lock>false</lock>
         <oauth2_profile/>
         <protocol_name/>
-        <qualified_name>test_studio_rest [ Default GET ]</qualified_name>
+        <qualified_name>mnx_scdb_obtener_contrato [ Default GET ]</qualified_name>
         <rest_endpoint>https://anypoint.mulesoft.com/mocking/api/v1/links/2cec9e8f-1c7d-4e56-970f-0bfbcba2725b/consulta/${idContrato}</rest_endpoint>
-        <rest_message display_value="test_studio_rest">c5af6aabdbcd2010741ccc30399619fd</rest_message>
+        <rest_message display_value="mnx_scdb_obtener_contrato">c5af6aabdbcd2010741ccc30399619fd</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-19 06:10:15</sys_created_on>

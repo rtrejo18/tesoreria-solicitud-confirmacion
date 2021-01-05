@@ -19,25 +19,6 @@
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>RE</dependent_value>
             <element>motivo_de_rechazo</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>-- New choice --</label>
-            <language>en</language>
-            <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
-            <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-14 23:07:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>fe88e816db052010741ccc30399619d1</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-15 22:29:42</sys_updated_on>
-            <value>-- New choice --</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>RE</dependent_value>
-            <element>motivo_de_rechazo</element>
             <hint>Comprobante  ilegible</hint>
             <inactive>false</inactive>
             <label>1. Comprobante  ilegible</label>
@@ -93,7 +74,7 @@
             <value>no_corresponde</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>PV</dependent_value>
+            <dependent_value>RE</dependent_value>
             <element>motivo_de_rechazo</element>
             <hint/>
             <inactive>false</inactive>
@@ -106,13 +87,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>0079d1eadb412010741ccc30399619ef</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-15 22:24:22</sys_updated_on>
+            <sys_updated_on>2021-01-03 18:49:25</sys_updated_on>
             <value>devuelto_rechazado</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>PV</dependent_value>
+            <dependent_value>RE</dependent_value>
             <element>motivo_de_rechazo</element>
             <hint/>
             <inactive>false</inactive>
@@ -125,13 +106,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>e799d5eadb412010741ccc3039961983</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-15 22:24:28</sys_updated_on>
+            <sys_updated_on>2021-01-03 18:49:30</sys_updated_on>
             <value>pertenece_otra_empresa</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>PV</dependent_value>
+            <dependent_value>RE</dependent_value>
             <element>motivo_de_rechazo</element>
             <hint/>
             <inactive>false</inactive>
@@ -144,13 +125,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>b15a112edb412010741ccc3039961976</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-15 22:24:38</sys_updated_on>
+            <sys_updated_on>2021-01-03 18:49:35</sys_updated_on>
             <value>contrato_cancelado</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>PV</dependent_value>
+            <dependent_value>RE</dependent_value>
             <element>motivo_de_rechazo</element>
             <hint/>
             <inactive>false</inactive>
@@ -163,13 +144,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>959a912edb412010741ccc30399619d6</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-15 22:24:44</sys_updated_on>
+            <sys_updated_on>2021-01-03 18:49:40</sys_updated_on>
             <value>referencia_no_corresponde</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>PV</dependent_value>
+            <dependent_value>RE</dependent_value>
             <element>motivo_de_rechazo</element>
             <hint/>
             <inactive>false</inactive>
@@ -182,9 +163,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>b9ead52edb412010741ccc30399619be</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-15 22:24:57</sys_updated_on>
+            <sys_updated_on>2021-01-03 18:49:47</sys_updated_on>
             <value>spei_spid_devuelto</value>
         </sys_choice>
     </sys_choice>
