@@ -24,6 +24,14 @@
 	g_form.setVisible('motivo_de_rechazo',true);
 	g_form.setReadOnly('estatus',false);
 	g_form.setReadOnly('motivo_de_rechazo',false);
+	g_form.removeOption('estatus','NU');
+	g_form.removeOption('motivo_de_rechazo','ilegible');
+	g_form.removeOption('motivo_de_rechazo','incompleto');
+	g_form.removeOption('motivo_de_rechazo','devuelto_rechazado');
+	g_form.removeOption('motivo_de_rechazo','pertenece_otra_empresa');
+	g_form.removeOption('motivo_de_rechazo','contrato_cancelado');
+	g_form.removeOption('motivo_de_rechazo','referencia_no_corresponde');
+	g_form.removeOption('motivo_de_rechazo','spei_spid_devuelto');
 }]]></script_true>
         <set_values/>
         <short_description>UI Policy Pendiente</short_description>
@@ -33,7 +41,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>26d95a36db012010741ccc30399619b3</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>UI Policy Pendiente</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
@@ -41,7 +49,7 @@
         <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
         <sys_update_name>sys_ui_policy_26d95a36db012010741ccc30399619b3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 05:14:38</sys_updated_on>
+        <sys_updated_on>2021-01-03 18:32:18</sys_updated_on>
         <table>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</table>
         <ui_type>0</ui_type>
         <view/>

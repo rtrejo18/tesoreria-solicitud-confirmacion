@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="DELETE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_552735_tesorer_a.mnx_scdb_catalogo_fun</name>
+        <script><![CDATA[var x_552735_tesorer_a = x_552735_tesorer_a || {};
+
+x_552735_tesorer_a.mnx_scdb_catalogo_funciones = (function() {
+	"use strict";
+
+function getSCAttachmentCount() {
+   var length;
+   try {
+   length = angular.element("#sc_cat_item").scope().attachments.length;
+   } catch(e) {
+   length = -1;
+   }
+   return length;
+}
+
+	return {
+
+/* set your public API here. For example:
+		incrementAndReturnPrivateVar: function() {
+			return private_function();
+		},
+*/
+		type:  "mnx_scdb_catalogo_funciones"
+	};
+})();
+]]></script>
+        <script_name>mnx_scdb_catalogo_funciones</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-04 01:29:19</sys_created_on>
+        <sys_id>f15888b0db2da010741ccc30399619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_552735_tesorer_a.mnx_scdb_catalogo_fun</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_update_name>sys_ui_script_f15888b0db2da010741ccc30399619c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-04 01:29:19</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>true</use_scoped_format>
+    </sys_ui_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</application>
+        <file_path/>
+        <instance_id>3014769fdb34b7408aea21c405961955</instance_id>
+        <instance_name>dev82055</instance_name>
+        <name>sys_ui_script_f15888b0db2da010741ccc30399619c9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;name&gt;x_552735_tesorer_a.mnx_scdb_catalogo_fun&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var x_552735_tesorer_a = x_552735_tesorer_a || {};
+
+x_552735_tesorer_a.mnx_scdb_catalogo_funciones = (function() {
+	"use strict";
+
+function getSCAttachmentCount() {
+   var length;
+   try {
+   length = angular.element("#sc_cat_item").scope().attachments.length;
+   } catch(e) {
+   length = -1;
+   }
+   return length;
+}
+
+	return {
+
+/* set your public API here. For example:
+		incrementAndReturnPrivateVar: function() {
+			return private_function();
+		},
+*/
+		type:  "mnx_scdb_catalogo_funciones"
+	};
+})();
+]]&gt;&lt;/script&gt;&lt;script_name&gt;mnx_scdb_catalogo_funciones&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-04 01:29:19&lt;/sys_created_on&gt;&lt;sys_id&gt;f15888b0db2da010741ccc30399619c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_552735_tesorer_a.mnx_scdb_catalogo_fun&lt;/sys_name&gt;&lt;sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a"&gt;f9a65591db052010741ccc3039961908&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Tesorería/Autorizar Pagos Nacionales"&gt;f9a65591db052010741ccc3039961908&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_f15888b0db2da010741ccc30399619c9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-01-04 01:29:19&lt;/sys_updated_on&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;use_scoped_format&gt;true&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-954383575</payload_hash>
+        <record_name>x_552735_tesorer_a.mnx_scdb_catalogo_fun</record_name>
+        <reverted_from/>
+        <source>3dd2ad99db052010741ccc30399619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-04 01:29:19</sys_created_on>
+        <sys_id>42e8c870db2da010741ccc30399619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176cb034a900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-04 01:29:19</sys_updated_on>
+        <type>UI Script</type>
+        <update_guid>8ae8c870832da010df75bb83ccfed7d1</update_guid>
+        <update_guid_history>8ae8c870832da010df75bb83ccfed7d1:-954383575</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-04 01:42:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_script">sys_ui_script</sys_db_object>
+        <sys_id>45694a1a49af41a4a868652de8804790</sys_id>
+        <sys_metadata>f15888b0db2da010741ccc30399619c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_552735_tesorer_a.mnx_scdb_catalogo_fun</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_scope_delete display_value="">06afc784d72d4ef082464d42f80dae40</sys_scope_delete>
+        <sys_update_name>sys_ui_script_f15888b0db2da010741ccc30399619c9</sys_update_name>
+        <sys_update_version display_value="sys_ui_script_f15888b0db2da010741ccc30399619c9">42e8c870db2da010741ccc30399619d2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-04 01:42:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

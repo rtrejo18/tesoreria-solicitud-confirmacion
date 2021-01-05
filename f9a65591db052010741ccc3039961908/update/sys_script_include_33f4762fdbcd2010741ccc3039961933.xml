@@ -17,7 +17,7 @@ mnx_scdb_cliente_obtener_contratos.prototype = Object.extendsObject(global.Abstr
    {
 	
  try { 
- var r = new sn_ws.RESTMessageV2('x_552735_tesorer_a.test_studio_rest', 'Default GET');
+ var r = new sn_ws.RESTMessageV2('x_552735_tesorer_a.mnx_scdb_obtener_contrato', 'Default GET');
      r.setStringParameter('idContrato',this.getParameter('idContrato'));
  var response = r.execute();
  var responseBody = response.getBody();
@@ -37,13 +37,13 @@ type: 'mnx_scdb_cliente_obtener_contratos'
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-19 06:37:52</sys_created_on>
         <sys_id>33f4762fdbcd2010741ccc3039961933</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>mnx_scdb_cliente_obtener_contratos</sys_name>
         <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
         <sys_policy/>
         <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
         <sys_update_name>sys_script_include_33f4762fdbcd2010741ccc3039961933</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-01 17:54:00</sys_updated_on>
+        <sys_updated_on>2021-01-03 05:38:22</sys_updated_on>
     </sys_script_include>
 </record_update>

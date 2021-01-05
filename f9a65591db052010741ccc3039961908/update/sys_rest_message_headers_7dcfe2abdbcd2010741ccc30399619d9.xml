@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
     <sys_rest_message_headers action="INSERT_OR_UPDATE">
         <name>Cache-Control</name>
-        <rest_message display_value="test_studio_rest">c5af6aabdbcd2010741ccc30399619fd</rest_message>
+        <rest_message display_value="mnx_scdb_obtener_contrato">c5af6aabdbcd2010741ccc30399619fd</rest_message>
         <sys_class_name>sys_rest_message_headers</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-19 06:11:22</sys_created_on>

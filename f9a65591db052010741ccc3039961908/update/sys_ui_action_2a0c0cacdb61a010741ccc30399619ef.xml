@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>sysverb_insert</action_name>
+        <action_name>editar_solicitud</action_name>
         <active>true</active>
-        <client>false</client>
+        <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
-
+	var gm = new GlideModal('x_552735_tesorer_a_UI Buscar Contrato',false, 'modal-lg');
+	gm.setTitle('Buscar Contrato');		
+	gm.render();
 }]]></client_script_v2>
-        <comments/>
+        <comments>Modificar solicitud precapturada.</comments>
         <condition/>
         <form_action>true</form_action>
         <form_button>true</form_button>
@@ -26,34 +28,35 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>Generar Solicitud</name>
-        <onclick>onSubmit()</onclick>
-        <order>100</order>
-        <script><![CDATA[answer = current.insert();
-gs.include('ActionUtils');
-var au = new ActionUtils();
-au.postInsert(current);]]></script>
+        <name>Editar Solicitud</name>
+        <onclick>onClick()</onclick>
+        <order>110</order>
+        <script><![CDATA[function onClick(){
+ var gm = new GlideModal('x_552735_tesorer_a_UI Buscar Contrato',false, 'modal-lg');
+ gm.setTitle('Buscar Contrato');		
+ gm.render();
+}]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>false</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-14 01:54:12</sys_created_on>
+        <sys_created_on>2021-01-03 07:07:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8405ccc6db8d2010741ccc30399619cb</sys_id>
-        <sys_mod_count>27</sys_mod_count>
-        <sys_name>Generar Solicitud</sys_name>
+        <sys_id>2a0c0cacdb61a010741ccc30399619ef</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Editar Solicitud</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
         <sys_policy/>
         <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
-        <sys_update_name>sys_ui_action_8405ccc6db8d2010741ccc30399619cb</sys_update_name>
+        <sys_update_name>sys_ui_action_2a0c0cacdb61a010741ccc30399619ef</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-05 06:02:34</sys_updated_on>
+        <sys_updated_on>2021-01-03 08:40:13</sys_updated_on>
         <table>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</table>
         <ui11_compatible>true</ui11_compatible>
-        <ui16_compatible>false</ui16_compatible>
+        <ui16_compatible>true</ui16_compatible>
     </sys_ui_action>
 </record_update>
