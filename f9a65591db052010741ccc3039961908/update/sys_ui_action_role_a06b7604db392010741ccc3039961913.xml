@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-14 16:50:46</sys_created_on>
+        <sys_id>a06b7604db392010741ccc3039961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Generar Solicitud.x_552735_tesorer_a.promotor</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_ui_action display_value="Generar Solicitud">8405ccc6db8d2010741ccc30399619cb</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_a06b7604db392010741ccc3039961913</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-14 16:50:46</sys_updated_on>
+        <sys_user_role display_value="x_552735_tesorer_a.promotor" name="x_552735_tesorer_a.promotor">37771d99db812010741ccc303996190e</sys_user_role>
+    </sys_ui_action_role>
+</record_update>
