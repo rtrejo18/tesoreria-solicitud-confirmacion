@@ -11,7 +11,6 @@
         <name>mnx_scdb_onload</name>
         <order/>
         <script><![CDATA[function onLoad() {
-
     if (g_form.getValue("estatus") == 'RE') {
         rechazado();
     } else if (g_form.getValue("estatus") == 'AU') {
@@ -26,7 +25,6 @@
         titularField.onkeyup = showSearchOnKeyPress;
     }
 }
-
 function showSearchOnKeyPress(e) {
 
     var gm = new GlideModal('x_552735_tesorer_a_UI Buscar Contrato', false, 'modal-lg');
@@ -36,7 +34,6 @@ function showSearchOnKeyPress(e) {
     //Opens the dialog
     gm.render();
 }
-
 function pendiente() {
     if (g_user.hasRoleExactly('x_552735_tesorer_a.promotor')) {
 		g_form.setReadOnly('titular', true);
@@ -51,7 +48,6 @@ function pendiente() {
 		g_form.setDisabled("motivo_de_rechazo", true);
     }
 }
-
 function rechazado() {
     g_form.setReadOnly('titular', true);
     g_form.setReadOnly('n_mero_de_contrato', true);
@@ -62,7 +58,6 @@ function rechazado() {
     g_form.setDisabled("titular", true);
     g_form.setDisabled("n_mero_de_contrato", true);
 }
-
 function autorizado() {
     g_form.setReadOnly('titular', true);
     g_form.setReadOnly('n_mero_de_contrato', true);
@@ -79,7 +74,7 @@ function autorizado() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1aed5ea1db012010741ccc303996197b</sys_id>
-        <sys_mod_count>61</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_name>mnx_scdb_onload</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
@@ -87,7 +82,7 @@ function autorizado() {
         <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
         <sys_update_name>sys_script_client_1aed5ea1db012010741ccc303996197b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-15 07:39:58</sys_updated_on>
+        <sys_updated_on>2021-06-10 04:12:38</sys_updated_on>
         <table>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

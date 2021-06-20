@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" element="NULL" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" parent="NULL" relationship="NULL" sys_domain="global" view="70507340c923101091f9f0646483272e">a93ee92cdbfc3010c0ee1c97059619df</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-14 03:37:29</sys_created_on>
+            <sys_id>653ee92cdbfc3010c0ee1c97059619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-14 03:37:29</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-14 03:37:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a93ee92cdbfc3010c0ee1c97059619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</sys_name>
+            <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+            <sys_update_name>sys_ui_list_x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios_sys_ref_list</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-14 03:37:29</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">70507340c923101091f9f0646483272e</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
