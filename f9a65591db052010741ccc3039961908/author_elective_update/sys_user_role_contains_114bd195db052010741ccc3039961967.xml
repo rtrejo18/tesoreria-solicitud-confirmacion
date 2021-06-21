@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="tesorería_autorizar_pagos_nacionales" name="tesorería_autorizar_pagos_nacionales">1d4bd195db052010741ccc303996194b</contains>
+        <role display_value="x_552735_tesorer_a.promotor" name="x_552735_tesorer_a.promotor">37771d99db812010741ccc303996190e</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-12 00:14:43</sys_created_on>
+        <sys_id>114bd195db052010741ccc3039961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tesorería_autorizar_pagos_nacionales.x_552735_tesorer_a.promotor</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_update_name>sys_user_role_contains_114bd195db052010741ccc3039961967</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-12 00:14:43</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</application>
+        <file_path/>
+        <instance_id>3014769fdb34b7408aea21c405961955</instance_id>
+        <instance_name>dev82055</instance_name>
+        <name>sys_user_role_contains_114bd195db052010741ccc3039961967</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="tesorería_autorizar_pagos_nacionales" name="tesorería_autorizar_pagos_nacionales">1d4bd195db052010741ccc303996194b</contains><role display_value="x_552735_tesorer_a.promotor" name="x_552735_tesorer_a.promotor">37771d99db812010741ccc303996190e</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-12 00:14:43</sys_created_on><sys_id>114bd195db052010741ccc3039961967</sys_id><sys_mod_count>0</sys_mod_count><sys_name>tesorería_autorizar_pagos_nacionales.x_552735_tesorer_a.promotor</sys_name><sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package><sys_policy/><sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope><sys_update_name>sys_user_role_contains_114bd195db052010741ccc3039961967</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-12 00:14:43</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>-1097256671</payload_hash>
+        <record_name>tesorería_autorizar_pagos_nacionales.x_552735_tesorer_a.promotor</record_name>
+        <reverted_from/>
+        <source>7da65591db052010741ccc303996190a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-12 00:14:43</sys_created_on>
+        <sys_id>514bd195db052010741ccc303996196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176544cbbc90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-12 00:14:43</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>994bd19535052010f2f387e2b49ac06a</update_guid>
+        <update_guid_history>994bd19535052010f2f387e2b49ac06a:-1097256671</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 01:15:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>c72b9d140ee34ed0ad6f8052b9a62e40</sys_id>
+        <sys_metadata>114bd195db052010741ccc3039961967</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tesorería_autorizar_pagos_nacionales.x_552735_tesorer_a.promotor</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_scope_delete display_value="">06afc784d72d4ef082464d42f80dae40</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_114bd195db052010741ccc3039961967</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_114bd195db052010741ccc3039961967">514bd195db052010741ccc303996196b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 01:15:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

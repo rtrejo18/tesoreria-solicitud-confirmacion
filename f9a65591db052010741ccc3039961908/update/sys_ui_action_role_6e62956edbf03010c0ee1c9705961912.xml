@@ -2,17 +2,17 @@
     <sys_ui_action_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_ui_action_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-14 16:50:21</sys_created_on>
-        <sys_id>2c7b3244db392010741ccc30399619e9</sys_id>
+        <sys_created_on>2021-06-20 06:44:08</sys_created_on>
+        <sys_id>6e62956edbf03010c0ee1c9705961912</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Editar Solicitud.x_552735_tesorer_a.promotor</sys_name>
+        <sys_name>Generar Solicitud.Tesoreria-Promotor</sys_name>
         <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
         <sys_policy/>
         <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
-        <sys_ui_action display_value="Editar Solicitud">2a0c0cacdb61a010741ccc30399619ef</sys_ui_action>
-        <sys_update_name>sys_ui_action_role_2c7b3244db392010741ccc30399619e9</sys_update_name>
+        <sys_ui_action display_value="Generar Solicitud">8405ccc6db8d2010741ccc30399619cb</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_6e62956edbf03010c0ee1c9705961912</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-14 16:50:21</sys_updated_on>
-        <sys_user_role display_value="x_552735_tesorer_a.promotor" name="x_552735_tesorer_a.promotor">37771d99db812010741ccc303996190e</sys_user_role>
+        <sys_updated_on>2021-06-20 06:44:08</sys_updated_on>
+        <sys_user_role display_value="Tesoreria-Promotor" name="Tesoreria-Promotor">37771d99db812010741ccc303996190e</sys_user_role>
     </sys_ui_action_role>
 </record_update>

@@ -13,6 +13,6 @@
         <sys_update_name>sys_ui_action_role_7b453240db392010741ccc30399619af</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-14 16:24:01</sys_updated_on>
-        <sys_user_role display_value="x_552735_tesorer_a.operador_tesoreria" name="x_552735_tesorer_a.operador_tesoreria">fb77595ddbc12010741ccc3039961905</sys_user_role>
+        <sys_user_role display_value="Tesoreria-Analista" name="Tesoreria-Analista">fb77595ddbc12010741ccc3039961905</sys_user_role>
     </sys_ui_action_role>
 </record_update>

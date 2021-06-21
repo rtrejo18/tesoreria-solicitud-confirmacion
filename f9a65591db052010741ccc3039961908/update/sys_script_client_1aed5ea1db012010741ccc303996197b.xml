@@ -8,7 +8,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>mnx_scdb_onload</name>
+        <name>Onload</name>
         <order/>
         <script><![CDATA[function onLoad() {
     if (g_form.getValue("estatus") == 'RE') {
@@ -35,7 +35,8 @@ function showSearchOnKeyPress(e) {
     gm.render();
 }
 function pendiente() {
-    if (g_user.hasRoleExactly('x_552735_tesorer_a.promotor')) {
+	alert('test role '+g_user.hasRoleExactly('Tesoreria-Promotor'));
+    if (g_user.hasRoleExactly('Tesoreria-Promotor')) {
 		g_form.setReadOnly('titular', true);
 		g_form.setReadOnly('n_mero_de_contrato', true);
 		g_form.setDisabled("titular", true);
@@ -74,15 +75,15 @@ function autorizado() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1aed5ea1db012010741ccc303996197b</sys_id>
-        <sys_mod_count>62</sys_mod_count>
-        <sys_name>mnx_scdb_onload</sys_name>
+        <sys_mod_count>65</sys_mod_count>
+        <sys_name>Onload</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
         <sys_policy/>
         <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
         <sys_update_name>sys_script_client_1aed5ea1db012010741ccc303996197b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 04:12:38</sys_updated_on>
+        <sys_updated_on>2021-06-20 06:09:35</sys_updated_on>
         <table>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
