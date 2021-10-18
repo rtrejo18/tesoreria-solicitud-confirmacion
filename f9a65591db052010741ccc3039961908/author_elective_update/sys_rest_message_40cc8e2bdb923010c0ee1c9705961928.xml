@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="DELETE">
+        <access>package_private</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description/>
+        <name>consultar_contratos </name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://prepro.apis.monex.com.mx/api-tesoreria-solictud-aclaracion-deposito/tesoreria/obtenerContrato</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-06 03:10:36</sys_created_on>
+        <sys_id>40cc8e2bdb923010c0ee1c9705961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>consultar_contratos </sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_update_name>sys_rest_message_40cc8e2bdb923010c0ee1c9705961928</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-06 03:10:36</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</application>
+        <file_path/>
+        <instance_id>3014769fdb34b7408aea21c405961955</instance_id>
+        <instance_name>dev82055</instance_name>
+        <name>sys_rest_message_40cc8e2bdb923010c0ee1c9705961928</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>package_private</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description/><name>consultar_contratos </name><oauth2_profile/><protocol_name/><rest_endpoint>https://prepro.apis.monex.com.mx/api-tesoreria-solictud-aclaracion-deposito/tesoreria/obtenerContrato</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-06 03:10:36</sys_created_on><sys_id>40cc8e2bdb923010c0ee1c9705961928</sys_id><sys_mod_count>0</sys_mod_count><sys_name>consultar_contratos </sys_name><sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package><sys_policy/><sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope><sys_update_name>sys_rest_message_40cc8e2bdb923010c0ee1c9705961928</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-06 03:10:36</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+        <payload_hash>1857432137</payload_hash>
+        <record_name>consultar_contratos </record_name>
+        <reverted_from/>
+        <source>5c98964adb792010741ccc3039961949</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-06 03:10:37</sys_created_on>
+        <sys_id>369dce2bdb923010c0ee1c970596196f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bb91613e50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-06 03:10:37</sys_updated_on>
+        <type>REST Message</type>
+        <update_guid>7e9dce2b9c92301007cc13655d00746e</update_guid>
+        <update_guid_history>7e9dce2b9c92301007cc13655d00746e:1857432137</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-06 05:20:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message">sys_rest_message</sys_db_object>
+        <sys_id>0bc3e8019040401e987b1167ec0e6b91</sys_id>
+        <sys_metadata>40cc8e2bdb923010c0ee1c9705961928</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>consultar_contratos </sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_scope_delete display_value="">06afc784d72d4ef082464d42f80dae40</sys_scope_delete>
+        <sys_update_name>sys_rest_message_40cc8e2bdb923010c0ee1c9705961928</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_40cc8e2bdb923010c0ee1c9705961928">369dce2bdb923010c0ee1c970596196f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-06 05:20:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

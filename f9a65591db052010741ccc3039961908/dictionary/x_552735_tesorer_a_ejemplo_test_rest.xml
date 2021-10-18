@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Ejemplo_Rest" max_length="40" name="x_552735_tesorer_a_ejemplo_test_rest" sizeclass="0" type="collection">
+        <element attributes="import_attribute_name=Column1" label="Column1" max_length="4000" name="u_column1" type="json"/>
+        <element attributes="import_attribute_name=test" label="test" max_length="400" name="u_test" type="json"/>
+    </element>
+</database>

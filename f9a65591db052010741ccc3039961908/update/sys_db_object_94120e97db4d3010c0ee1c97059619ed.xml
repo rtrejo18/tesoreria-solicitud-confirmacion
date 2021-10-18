@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
-        <access>public</access>
-        <actions_access>true</actions_access>
-        <alter_access>true</alter_access>
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
         <caller_access/>
-        <client_scripts_access>true</client_scripts_access>
-        <configuration_access>true</configuration_access>
-        <create_access>true</create_access>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
         <create_access_controls>false</create_access_controls>
         <delete_access>false</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
-        <label>Solicitud de confirmación de depósitos bancarios</label>
+        <label>Ejemplo_Rest</label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</name>
-        <number_ref display_value="SOL">1dcad955db052010741ccc30399619e1</number_ref>
+        <name>x_552735_tesorer_a_ejemplo_test_rest</name>
+        <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class/>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">68f03b84c923101091f9f064648327c6</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-12 00:12:31</sys_created_on>
-        <sys_id>81cad955db052010741ccc30399619bc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Solicitud de confirmación de depósitos bancarios</sys_name>
+        <sys_created_on>2021-07-05 04:23:14</sys_created_on>
+        <sys_id>94120e97db4d3010c0ee1c97059619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tesorer A Ejemplo Test Rest</sys_name>
         <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
         <sys_policy/>
         <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
-        <sys_update_name>sys_db_object_81cad955db052010741ccc30399619bc</sys_update_name>
+        <sys_update_name>sys_db_object_94120e97db4d3010c0ee1c97059619ed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-01 18:36:42</sys_updated_on>
-        <update_access>true</update_access>
+        <sys_updated_on>2021-07-05 04:23:14</sys_updated_on>
+        <update_access>false</update_access>
         <user_role/>
         <ws_access>true</ws_access>
     </sys_db_object>

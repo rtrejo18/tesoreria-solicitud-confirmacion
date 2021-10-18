@@ -27,6 +27,7 @@
 
         function checking(response) {
             var respuesta = response.responseXML.documentElement.getAttribute("answer");
+			alert(respuesta);
             if (respuesta == 'true') {
                 g_scratchpad.isFormValid = true;
                 g_form.submit("sysverb_insert");
@@ -37,19 +38,18 @@
         return false;
 
     } else {
-        //alert(g_form.getValue("estatus"));
+        alert('TREXO TEST');
+		
+		 var actualizaMovBan = new GlideAjax("mnx_scdb_update_mov_ban");
+		actualizaMovBan.addParam("sysparm_name", "actualiza");
+		actualizaMovBan.getXMLAnswer(function(response) {
+			var jsonResponse = JSON.parse(response);
+			alert(response);
+			alert(jsonResponse);
+		});
 
         if (g_form.getValue("estatus") == 'RE' && isValido) {
-            try {
-                var r = new sn_ws.RESTMessageV2('x_552735_tesorer_a.mnx_scdb_actualizar_solicitud', 'mnx_scdb_actualizar_solicitud_post');
-
-                var response = r.execute();
-                var responseBody = response.getBody();
-                alert(responseBody);
-                var httpStatus = response.getStatusCode();
-            } catch (ex) {
-                var message = ex.message;
-            }
+            
             g_scratchpad.isFormValid = true;
             g_form.submit("sysverb_update");
             return true;
@@ -89,7 +89,7 @@ function validacion() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ed653430dbada010741ccc3039961969</sys_id>
-        <sys_mod_count>121</sys_mod_count>
+        <sys_mod_count>129</sys_mod_count>
         <sys_name>On_Submit</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
@@ -97,7 +97,7 @@ function validacion() {
         <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
         <sys_update_name>sys_script_client_ed653430dbada010741ccc3039961969</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-20 03:20:19</sys_updated_on>
+        <sys_updated_on>2021-10-01 07:10:18</sys_updated_on>
         <table>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</table>
         <type>onSubmit</type>
         <ui_type>0</ui_type>
