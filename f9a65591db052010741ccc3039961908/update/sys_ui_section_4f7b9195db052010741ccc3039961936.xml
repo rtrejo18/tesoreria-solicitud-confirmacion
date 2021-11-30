@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-16 21:32:02</sys_created_on>
-            <sys_id>c3f5aebedb012010741ccc303996191a</sys_id>
+            <sys_created_on>2021-11-20 22:25:51</sys_created_on>
+            <sys_id>2445a048dbc00110c0ee1c97059619d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" sys_domain="global" view="Default view">4f7b9195db052010741ccc3039961936</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-16 21:32:02</sys_updated_on>
+            <sys_updated_on>2021-11-20 22:25:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>n_mero_de_contrato</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-16 21:32:02</sys_created_on>
-            <sys_id>8bf5aebedb012010741ccc303996191a</sys_id>
+            <sys_created_on>2021-11-20 22:25:51</sys_created_on>
+            <sys_id>a445a048dbc00110c0ee1c97059619d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" sys_domain="global" view="Default view">4f7b9195db052010741ccc3039961936</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-16 21:32:02</sys_updated_on>
+            <sys_updated_on>2021-11-20 22:25:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>titular</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-16 21:32:02</sys_created_on>
-            <sys_id>0ff5aebedb012010741ccc303996191a</sys_id>
+            <sys_created_on>2021-11-20 22:25:51</sys_created_on>
+            <sys_id>2845a048dbc00110c0ee1c97059619d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" sys_domain="global" view="Default view">4f7b9195db052010741ccc3039961936</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-16 21:32:02</sys_updated_on>
+            <sys_updated_on>2021-11-20 22:25:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>fecha</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-16 21:32:02</sys_created_on>
-            <sys_id>8ff5aebedb012010741ccc303996191a</sys_id>
+            <sys_created_on>2021-11-20 22:25:51</sys_created_on>
+            <sys_id>a845a048dbc00110c0ee1c97059619d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" sys_domain="global" view="Default view">4f7b9195db052010741ccc3039961936</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-16 21:32:02</sys_updated_on>
+            <sys_updated_on>2021-11-20 22:25:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>divisa</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-16 21:32:02</sys_created_on>
-            <sys_id>03f5aebedb012010741ccc303996191b</sys_id>
+            <sys_created_on>2021-11-20 22:25:51</sys_created_on>
+            <sys_id>2c45a048dbc00110c0ee1c97059619d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" sys_domain="global" view="Default view">4f7b9195db052010741ccc3039961936</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-16 21:32:02</sys_updated_on>
+            <sys_updated_on>2021-11-20 22:25:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>importe</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-16 21:32:02</sys_created_on>
-            <sys_id>83f5aebedb012010741ccc303996191b</sys_id>
+            <sys_created_on>2021-11-20 22:25:51</sys_created_on>
+            <sys_id>ac45a048dbc00110c0ee1c97059619d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" sys_domain="global" view="Default view">4f7b9195db052010741ccc3039961936</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-16 21:32:02</sys_updated_on>
+            <sys_updated_on>2021-11-20 22:25:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>banco</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-16 21:32:02</sys_created_on>
-            <sys_id>07f5aebedb012010741ccc303996191b</sys_id>
+            <sys_created_on>2021-11-20 22:25:51</sys_created_on>
+            <sys_id>2045a048dbc00110c0ee1c97059619d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" sys_domain="global" view="Default view">4f7b9195db052010741ccc3039961936</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-16 21:32:02</sys_updated_on>
+            <sys_updated_on>2021-11-20 22:25:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,55 +102,69 @@
             <element>cuenta</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-16 21:32:02</sys_created_on>
-            <sys_id>87f5aebedb012010741ccc303996191b</sys_id>
+            <sys_created_on>2021-11-20 22:25:51</sys_created_on>
+            <sys_id>a045a048dbc00110c0ee1c97059619d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" sys_domain="global" view="Default view">4f7b9195db052010741ccc3039961936</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-16 21:32:02</sys_updated_on>
+            <sys_updated_on>2021-11-20 22:25:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>referencia</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-20 22:25:51</sys_created_on>
+            <sys_id>2445a048dbc00110c0ee1c97059619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" sys_domain="global" view="Default view">4f7b9195db052010741ccc3039961936</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-20 22:25:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>informaci_n_adicional</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-16 21:32:02</sys_created_on>
-            <sys_id>0bf5aebedb012010741ccc303996191b</sys_id>
+            <sys_created_on>2021-11-20 22:25:51</sys_created_on>
+            <sys_id>a445a048dbc00110c0ee1c97059619d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" sys_domain="global" view="Default view">4f7b9195db052010741ccc3039961936</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-16 21:32:02</sys_updated_on>
+            <sys_updated_on>2021-11-20 22:25:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>estatus</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-16 21:32:02</sys_created_on>
-            <sys_id>8bf5aebedb012010741ccc303996191b</sys_id>
+            <sys_created_on>2021-11-20 22:25:51</sys_created_on>
+            <sys_id>2845a048dbc00110c0ee1c97059619d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" sys_domain="global" view="Default view">4f7b9195db052010741ccc3039961936</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-16 21:32:02</sys_updated_on>
+            <sys_updated_on>2021-11-20 22:25:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>motivo_de_rechazo</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-16 21:32:02</sys_created_on>
-            <sys_id>0ff5aebedb012010741ccc303996191b</sys_id>
+            <sys_created_on>2021-11-20 22:25:51</sys_created_on>
+            <sys_id>a845a048dbc00110c0ee1c97059619d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios" sys_domain="global" view="Default view">4f7b9195db052010741ccc3039961936</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-16 21:32:02</sys_updated_on>
+            <sys_updated_on>2021-11-20 22:25:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

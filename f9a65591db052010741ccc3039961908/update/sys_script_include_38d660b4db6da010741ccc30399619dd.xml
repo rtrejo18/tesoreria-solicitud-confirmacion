@@ -11,52 +11,87 @@
 mnx_scdb_valida_adjunto.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     attachment: function() {
         var cat_id = this.getParameter('sysparm_item_guid');
+		var peIdSolicitud =this.getParameter('peIdSolicitud');
+		var PEIdCuenta =this.getParameter('PEIdCuenta');
+		var PEIdBanco =this.getParameter('PEIdBanco');
+		var PEReferenciaBco =this.getParameter('PEReferenciaBco');
+		var PERefNumCto =this.getParameter('PERefNumCto');
+		var PEBCommit =this.getParameter('PEBCommit');
+		var peStatusSolicitud =this.getParameter('peStatusSolicitud');
+		var PECveUsuario =this.getParameter('PECveUsuario');
+		
+		var responseJson = '';
+		
         var gr = new GlideRecord("sys_attachment");
+			gr.addQuery("table_name", "x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios");
+			gr.addQuery("table_sys_id", cat_id);
+            gr.query();
+        var attachment = new GlideSysAttachment();
+        var incidentSysID = cat_id;
+        var agr = attachment.getAttachments("x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios", incidentSysID);
+       
+		var desArchivo = "";
+        var totalSize = 0;
 		
-		
-        gr.addQuery("table_name", "x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios");
-        gr.addQuery("table_sys_id", cat_id);
-        gr.query();
-		
-		
-		var attachment = new GlideSysAttachment();
-		var incidentSysID = cat_id;
-
-		var agr = attachment.getAttachments("x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios", incidentSysID);
-		
-		var test ="";
-		while(agr.next()){
-			
-			gs.info(agr.getValue('state'));
-			test=test+agr.getValue('state')+" "+attachment.getContentBase64(agr);
-			
-		}
-		
-		return test;
-		if (agr.next()) {
-		  var attachmentContent = attachment.getContentBase64(agr);
-		  return attachmentContent;
-		}
-	
-		if (gr.next()) {
-			return gr.state;;
-			
-        } else {
-            return 'no';
+        while (agr.next()) {
+            totalSize+=1;
         }
+		
+		if(totalSize > 0 && totalSize < 6){			
+			var respuestaPost='';	
+			try {
+				var r = new sn_ws.RESTMessageV2('x_552735_tesorer_a.mnx_scdb_actualizar_solicitud', 'mnx_scdb_actualizar_solicitud_post');
+				
+				r.setStringParameter('PECveEntidad','MONEX');
+				r.setStringParameter('PEIdCuenta',PEIdCuenta);
+				r.setStringParameter('PEIdBanco',PEIdBanco);
+				r.setStringParameter('PEReferenciaBco',PEReferenciaBco);
+				r.setStringParameter('PERefNumCto',PERefNumCto);
+				r.setStringParameter('PEBCommit',PEBCommit);
+				r.setStringParameter('peStatusSolicitud',peStatusSolicitud);
+				r.setStringParameter('peIdSolicitud',peIdSolicitud);		
+				r.setStringParameter('PECveUsuario',PECveUsuario);
+				r.setStringParameter('PSCod_Resp','');
+				r.setStringParameter('PSDesc_Procesoa','');
+				
+				r.setRequestHeader('Content-Type', 'application/json');
+           	
+				//r.setRequestBody(JSON.stringify(body));
+				var response = r.execute();
+				
+				
+				//responseJson = JSON.stringify('{"PSCod_Resp":"0","PSDesc_Proceso":"Exito"}');
+				//return JSON.parse(responseJson);
+				responseJson = response.getBody();
+				return responseJson;
+			} catch (ex) {
+				var message = ex.message;
+				responseJson = JSON.stringify('{"PSCod_Resp":"-1","PSDesc_Proceso":"Error '+message+'"}');
+				return message;
+			}
+		}else{
+			if(totalSize ==0){
+			  
+			  responseJson = JSON.stringify('{"PSCod_Resp":"-1","PSDesc_Proceso":"Adjuntar por lo menos un archivo"}');
+			
+			}else if(totalSize>5){
+			  responseJson = JSON.stringify('{"PSCod_Resp":"-1","PSDesc_Proceso":"Adjuntar por lo menos un archivo"}');
+			}
+			return JSON.parse(responseJson);
+		}
     }
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-04 03:41:21</sys_created_on>
         <sys_id>38d660b4db6da010741ccc30399619dd</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>117</sys_mod_count>
         <sys_name>mnx_scdb_valida_adjunto</sys_name>
         <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
-        <sys_policy>read</sys_policy>
+        <sys_policy/>
         <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
         <sys_update_name>sys_script_include_38d660b4db6da010741ccc30399619dd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-20 06:52:40</sys_updated_on>
+        <sys_updated_on>2021-11-30 06:59:38</sys_updated_on>
     </sys_script_include>
 </record_update>

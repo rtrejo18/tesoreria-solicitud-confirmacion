@@ -13,7 +13,7 @@
         <sys_update_name>sys_security_acl_role_f9ca1d55db052010741ccc3039961931</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-12-12 00:12:33</sys_updated_on>
-        <sys_user_role display_value="x_552735_tesorer_a.promotor" name="x_552735_tesorer_a.promotor">37771d99db812010741ccc303996190e</sys_user_role>
+        <sys_user_role display_value="Tesoreria-Promotor" name="Tesoreria-Promotor">37771d99db812010741ccc303996190e</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>

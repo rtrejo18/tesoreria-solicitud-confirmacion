@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
+    <sys_rest_message_headers action="DELETE">
+        <name>Content-Type</name>
+        <rest_message display_value="mnx_scdb_obtener_contrato">c5af6aabdbcd2010741ccc30399619fd</rest_message>
+        <sys_class_name>sys_rest_message_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-24 07:30:52</sys_created_on>
+        <sys_id>03e2a029dbe53010c0ee1c9705961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content-Type</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_update_name>sys_rest_message_headers_03e2a029dbe53010c0ee1c9705961947</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-24 07:30:52</sys_updated_on>
+        <value>application/json</value>
+    </sys_rest_message_headers>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</application>
+        <file_path/>
+        <instance_id>3014769fdb34b7408aea21c405961955</instance_id>
+        <instance_name>dev82055</instance_name>
+        <name>sys_rest_message_headers_03e2a029dbe53010c0ee1c9705961947</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers"><sys_rest_message_headers action="INSERT_OR_UPDATE"><name>Content-Type</name><rest_message display_value="mnx_scdb_obtener_contrato">c5af6aabdbcd2010741ccc30399619fd</rest_message><sys_class_name>sys_rest_message_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-24 07:30:52</sys_created_on><sys_id>03e2a029dbe53010c0ee1c9705961947</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Content-Type</sys_name><sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package><sys_policy/><sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope><sys_update_name>sys_rest_message_headers_03e2a029dbe53010c0ee1c9705961947</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-24 07:30:52</sys_updated_on><value>application/json</value></sys_rest_message_headers></record_update>]]></payload>
+        <payload_hash>91153625</payload_hash>
+        <record_name>Content-Type</record_name>
+        <reverted_from/>
+        <source>5c98964adb792010741ccc3039961949</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-24 07:30:53</sys_created_on>
+        <sys_id>5e336ce5dbe53010c0ee1c970596197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ad76c8bd00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-24 07:30:53</sys_updated_on>
+        <type>HTTP Headers</type>
+        <update_guid>96336ce57be530106b72af416c43e57a</update_guid>
+        <update_guid_history>96336ce57be530106b72af416c43e57a:91153625</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-24 08:21:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_headers">sys_rest_message_headers</sys_db_object>
+        <sys_id>02b007216eaf4a28a967627cf16fe210</sys_id>
+        <sys_metadata>03e2a029dbe53010c0ee1c9705961947</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content-Type</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_parent display_value="mnx_scdb_obtener_contrato">c5af6aabdbcd2010741ccc30399619fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_scope_delete display_value="">06afc784d72d4ef082464d42f80dae40</sys_scope_delete>
+        <sys_update_name>sys_rest_message_headers_03e2a029dbe53010c0ee1c9705961947</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_headers_03e2a029dbe53010c0ee1c9705961947">5e336ce5dbe53010c0ee1c970596197a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-24 08:21:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

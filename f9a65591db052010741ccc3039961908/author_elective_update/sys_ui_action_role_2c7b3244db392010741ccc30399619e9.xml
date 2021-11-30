@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="DELETE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-14 16:50:21</sys_created_on>
+        <sys_id>2c7b3244db392010741ccc30399619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Editar Solicitud.x_552735_tesorer_a.promotor</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_ui_action display_value="Editar Solicitud">2a0c0cacdb61a010741ccc30399619ef</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_2c7b3244db392010741ccc30399619e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-14 16:50:21</sys_updated_on>
+        <sys_user_role display_value="x_552735_tesorer_a.promotor" name="x_552735_tesorer_a.promotor">37771d99db812010741ccc303996190e</sys_user_role>
+    </sys_ui_action_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</application>
+        <file_path/>
+        <instance_id>3014769fdb34b7408aea21c405961955</instance_id>
+        <instance_name>dev82055</instance_name>
+        <name>sys_ui_action_role_2c7b3244db392010741ccc30399619e9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role"><sys_ui_action_role action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-14 16:50:21</sys_created_on><sys_id>2c7b3244db392010741ccc30399619e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Editar Solicitud.x_552735_tesorer_a.promotor</sys_name><sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package><sys_policy/><sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope><sys_ui_action display_value="Editar Solicitud">2a0c0cacdb61a010741ccc30399619ef</sys_ui_action><sys_update_name>sys_ui_action_role_2c7b3244db392010741ccc30399619e9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-14 16:50:21</sys_updated_on><sys_user_role display_value="x_552735_tesorer_a.promotor" name="x_552735_tesorer_a.promotor">37771d99db812010741ccc303996190e</sys_user_role></sys_ui_action_role></record_update>]]></payload>
+        <payload_hash>-1381851737</payload_hash>
+        <record_name>Editar Solicitud.x_552735_tesorer_a.promotor</record_name>
+        <reverted_from/>
+        <source>3dd2ad99db052010741ccc30399619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-14 16:50:21</sys_created_on>
+        <sys_id>e79b3604db392010741ccc30399619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17701ce207e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-14 16:50:21</sys_updated_on>
+        <type>UI Action Role</type>
+        <update_guid>239b3604bb3920102326102e168e4ad5</update_guid>
+        <update_guid_history>239b3604bb3920102326102e168e4ad5:-1381851737</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 06:42:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action_role">sys_ui_action_role</sys_db_object>
+        <sys_id>05fe93c3c85348348265cae547af3210</sys_id>
+        <sys_metadata>2c7b3244db392010741ccc30399619e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Editar Solicitud.x_552735_tesorer_a.promotor</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_scope_delete display_value="">06afc784d72d4ef082464d42f80dae40</sys_scope_delete>
+        <sys_update_name>sys_ui_action_role_2c7b3244db392010741ccc30399619e9</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_role_2c7b3244db392010741ccc30399619e9">e79b3604db392010741ccc30399619d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 06:42:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

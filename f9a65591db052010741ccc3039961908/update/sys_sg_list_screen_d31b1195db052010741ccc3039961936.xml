@@ -3,6 +3,7 @@
         <available_offline>false</available_offline>
         <description>Solicitud de confirmación de depósitos bancarios Solicitud de confirmación de depósitos bancarios</description>
         <dynamic_prefetch_count/>
+        <empty_state/>
         <fetch_type>not_required</fetch_type>
         <filter/>
         <hide_filters>false</hide_filters>

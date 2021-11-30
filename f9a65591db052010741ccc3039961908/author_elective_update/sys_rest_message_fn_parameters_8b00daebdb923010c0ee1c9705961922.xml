@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="DELETE">
+        <name>tests</name>
+        <rest_message_function display_value="Default POST">25cf2eabdbcd2010741ccc303996196d</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-06 03:21:43</sys_created_on>
+        <sys_id>8b00daebdb923010c0ee1c9705961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tests</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_8b00daebdb923010c0ee1c9705961922</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-06 03:21:43</sys_updated_on>
+        <type>string</type>
+        <value>{&#13;
+    "id_contrato":"100016",&#13;
+    "nom_persona":"AZERBAIYÁN SKOPIE CANADIENSE"&#13;
+}</value>
+    </sys_rest_message_fn_parameters>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</application>
+        <file_path/>
+        <instance_id>3014769fdb34b7408aea21c405961955</instance_id>
+        <instance_name>dev82055</instance_name>
+        <name>sys_rest_message_fn_parameters_8b00daebdb923010c0ee1c9705961922</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>tests</name><rest_message_function display_value="Default POST">25cf2eabdbcd2010741ccc303996196d</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-06 03:21:43</sys_created_on><sys_id>8b00daebdb923010c0ee1c9705961922</sys_id><sys_mod_count>0</sys_mod_count><sys_name>tests</sys_name><sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package><sys_policy/><sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope><sys_update_name>sys_rest_message_fn_parameters_8b00daebdb923010c0ee1c9705961922</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-06 03:21:43</sys_updated_on><type>string</type><value>{&#13;
+    "id_contrato":"100016",&#13;
+    "nom_persona":"AZERBAIYÁN SKOPIE CANADIENSE"&#13;
+}</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+        <payload_hash>-848450540</payload_hash>
+        <record_name>tests</record_name>
+        <reverted_from/>
+        <source>5c98964adb792010741ccc3039961949</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-06 03:21:43</sys_created_on>
+        <sys_id>f5201eebdb923010c0ee1c970596197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bb920413a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-06 03:21:43</sys_updated_on>
+        <type>Variable Substitutions</type>
+        <update_guid>31201eeb11923010f506eefc034fed7d</update_guid>
+        <update_guid_history>31201eeb11923010f506eefc034fed7d:-848450540</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-06 04:47:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_parameters">sys_rest_message_fn_parameters</sys_db_object>
+        <sys_id>55af8a45e45d4261bbad70ff2a9017a9</sys_id>
+        <sys_metadata>8b00daebdb923010c0ee1c9705961922</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tests</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_parent display_value="Default POST">25cf2eabdbcd2010741ccc303996196d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_scope_delete display_value="">06afc784d72d4ef082464d42f80dae40</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_parameters_8b00daebdb923010c0ee1c9705961922</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_parameters_8b00daebdb923010c0ee1c9705961922">f5201eebdb923010c0ee1c970596197d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-06 04:47:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

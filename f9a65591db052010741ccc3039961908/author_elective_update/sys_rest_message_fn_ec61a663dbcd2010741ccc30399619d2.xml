@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Default GET</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>demo_outbound_message [ Default GET ]</qualified_name>
+        <rest_endpoint>http://anypoint.mulesoft.com/mocking/api/v1/links/2cec9e8f-1c7d-4e56-970f-0bfbcba2725b/consulta/123456</rest_endpoint>
+        <rest_message display_value="demo_outbound_message">b7b0ee6bdb8d2010741ccc303996199f</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-19 05:07:23</sys_created_on>
+        <sys_id>ec61a663dbcd2010741ccc30399619d2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_update_name>sys_rest_message_fn_ec61a663dbcd2010741ccc30399619d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-19 05:38:50</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</application>
+        <file_path/>
+        <instance_id>3014769fdb34b7408aea21c405961955</instance_id>
+        <instance_name>dev82055</instance_name>
+        <name>sys_rest_message_fn_ec61a663dbcd2010741ccc30399619d2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>demo_outbound_message [ Default GET ]</qualified_name><rest_endpoint>http://anypoint.mulesoft.com/mocking/api/v1/links/2cec9e8f-1c7d-4e56-970f-0bfbcba2725b/consulta/123456</rest_endpoint><rest_message display_value="demo_outbound_message">b7b0ee6bdb8d2010741ccc303996199f</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-19 05:07:23</sys_created_on><sys_id>ec61a663dbcd2010741ccc30399619d2</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package><sys_policy/><sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope><sys_update_name>sys_rest_message_fn_ec61a663dbcd2010741ccc30399619d2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-19 05:38:50</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>-1580634384</payload_hash>
+        <record_name>Default GET</record_name>
+        <reverted_from/>
+        <source>3dd2ad99db052010741ccc30399619f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-19 05:38:50</sys_created_on>
+        <sys_id>1d9822a7dbcd2010741ccc303996197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1767981fbc20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-19 05:38:50</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>559822a775cd201068c7c1cf5f53be7a</update_guid>
+        <update_guid_history>559822a775cd201068c7c1cf5f53be7a:-1580634384,b11562a3dacd2010585248876277be33:258214209,c591a26332cd2010947795a708d5a113:-165387268,b061a66391cd2010afcd79df6e0bcdd5:-276149487</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-17 04:41:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>76c11b1548744734b1f60148da7248e9</sys_id>
+        <sys_metadata>ec61a663dbcd2010741ccc30399619d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_parent display_value="mnx_scdb_actualizar_solicitud">b7b0ee6bdb8d2010741ccc303996199f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_scope_delete display_value="">06afc784d72d4ef082464d42f80dae40</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_ec61a663dbcd2010741ccc30399619d2</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_ec61a663dbcd2010741ccc30399619d2">1d9822a7dbcd2010741ccc303996197a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-17 04:41:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

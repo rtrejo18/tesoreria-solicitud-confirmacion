@@ -34,6 +34,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-12-12 00:14:02</sys_updated_on>
         <table_name>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</table_name>
+        <virtual_field_value>false</virtual_field_value>
     </sys_sg_ui_parameter>
     <sys_translated_text action="delete_multiple" query="documentkey=d31b1195db052010741ccc303996194f"/>
 </record_update>

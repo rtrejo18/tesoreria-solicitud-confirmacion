@@ -3,6 +3,7 @@
         <description/>
         <execution_script/>
         <name>Edit (Solicitud de confirmación de depósitos bancarios)</name>
+        <parameter_screen/>
         <query_condition table="x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios">sys_idSTARTSWITH{{Solicitud de confirmación de depósitos bancarios sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{Solicitud de confirmación de depósitos bancarios sys_id}}"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </query_condition>
