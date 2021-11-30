@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>true</action_insert>
-        <action_update>false</action_update>
-        <active>false</active>
+        <action_update>true</action_update>
+        <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
@@ -35,7 +35,48 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Banco: ${banco}ID Solicitud Confirmaci&oacute;n: ${number}Importe: ${importe}Cuenta: ${cuenta}Divisa: ${divisa}ID Solicitud Confirmaci&oacute;n: ${number}<br /><br /><br /><br /><br /><br /></p>]]></message_html>
+        <message_html><![CDATA[<p><br /></p>
+<table style="border-collapse: collapse; width: 47.69%; height: 132px;" border="1">
+<tbody>
+<tr style="height: 11px;">
+<td style="width: 666.758px; height: 11px;"><strong>ID Solicitud Confirmaci&oacute;n: ${number}</strong></td>
+</tr>
+<tr style="height: 11px;">
+<td style="width: 666.758px; height: 11px;">N&uacute;mero de contrato: ${n_mero_de_contrato}</td>
+</tr>
+<tr style="height: 11px;">
+<td style="width: 666.758px; height: 11px;">Titular: ${titular}</td>
+</tr>
+<tr style="height: 11px;">
+<td style="width: 666.758px; height: 11px;">Fecha: ${fecha}</td>
+</tr>
+<tr style="height: 11px;">
+<td style="width: 666.758px; height: 11px;">Divisa: ${divisa}</td>
+</tr>
+<tr style="height: 11px;">
+<td style="width: 666.758px; height: 11px;">Importe: ${importe}</td>
+</tr>
+<tr style="height: 11px;">
+<td style="width: 666.758px; height: 11px;">Banco: ${banco}</td>
+</tr>
+<tr style="height: 11px;">
+<td style="width: 666.758px; height: 11px;">Cuenta: ${cuenta}</td>
+</tr>
+<tr style="height: 11px;">
+<td style="width: 666.758px; height: 11px;">Referencia: ${referencia}</td>
+</tr>
+<tr style="height: 11px;">
+<td style="width: 666.758px; height: 11px;">Informaci&oacute;n adicional: ${informaci_n_adicional}</td>
+</tr>
+<tr style="height: 11px;">
+<td style="width: 666.758px; height: 11px;">Estatus: ${estatus}</td>
+</tr>
+<tr style="height: 11px;">
+<td style="width: 666.758px; height: 11px;">Motivo de rechazo: ${motivo_de_rechazo}</td>
+</tr>
+</tbody>
+</table>
+<p><br /><br /><br /><br /><br /><br /></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Solicitud de confirmación</name>
@@ -44,12 +85,12 @@
         <push_message_only>false</push_message_only>
         <recipient_fields/>
         <recipient_groups/>
-        <recipient_users>rtrejom_ext@monex.com.mx,lvazquez@monex.com.mx,dhernandezh_ext@monex.com.mx</recipient_users>
+        <recipient_users>rtrejom_ext@monex.com.mx,rtrejo.zoe@gmail.com</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Solicitud Confirmación: ${number}</subject>
+        <subject>ID Solicitud Confirmación: ${number}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -57,7 +98,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3060f9ecdbfc3010c0ee1c97059619ef</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Solicitud de confirmación</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
@@ -65,9 +106,9 @@
         <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
         <sys_update_name>sysevent_email_action_3060f9ecdbfc3010c0ee1c97059619ef</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-26 02:14:27</sys_updated_on>
+        <sys_updated_on>2021-11-30 06:06:01</sys_updated_on>
         <sys_version>2</sys_version>
-        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <template/>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>

@@ -16,6 +16,8 @@
 	map['Column1']='value';
 	import_set_table.insert(map);
 })(import_set_table);]]></data_loader>
+        <data_stream_action/>
+        <data_stream_action_inputs/>
         <database_name/>
         <database_port/>
         <discard_arrays>true</discard_arrays>
@@ -82,4 +84,5 @@
         <xpath_root_node/>
         <zipped>false</zipped>
     </sys_data_source>
+    <sys_variable_value action="delete_multiple" query="document_key=dba1e95fdbc93010c0ee1c970596190c"/>
 </record_update>

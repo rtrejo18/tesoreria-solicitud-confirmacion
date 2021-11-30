@@ -13,7 +13,6 @@
         <ih_action>false</ih_action>
         <internal_name>carga_rest_api</internal_name>
         <label_cache>[{"name":"{{action.limit}}","label":"action➛Limit","type":"action","ref":""},{"name":"{{action.offset}}","label":"action➛Offset","type":"action","ref":""},{"name":"{{action.attachment_name}}","label":"action➛Attachment Name","type":"action","ref":""},{"name":"{{action.last_success_import_time}}","label":"action➛Last Success Import Time","type":"action","ref":""},{"name":"{{action.import_start_time}}","label":"action➛Import Start Time","type":"action","ref":""}]</label_cache>
-        <latest_snapshot>cf55e913db0d3010c0ee1c97059619f7</latest_snapshot>
         <master_snapshot>baf3e5dfdbc93010c0ee1c9705961910</master_snapshot>
         <name>carga_rest_api</name>
         <natlang/>
@@ -3080,4 +3079,8 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>6733e99fdbc93010c0ee1c970596192e</sys_id>
+        <latest_snapshot>baf3e5dfdbc93010c0ee1c9705961910</latest_snapshot>
+    </sys_hub_action_type_definition>
 </record_update>

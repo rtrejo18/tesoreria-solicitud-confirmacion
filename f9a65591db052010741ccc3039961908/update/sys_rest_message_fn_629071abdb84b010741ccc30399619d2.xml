@@ -5,18 +5,18 @@
         <basic_auth_profile/>
         <basic_auth_user/>
         <content>{&#13;
-"PECveEntidad":"MONEX",&#13;
-"PEIdCuenta":"6503652",&#13;
-"PEIdBanco":"169639",&#13;
-"PEReferenciaBco":"100009319",&#13;
-"PERefNumCto":"1577428",&#13;
-"PEBCommit":"V",&#13;
-"peStatusSolicitud":"RE",&#13;
-"peIdSolicitud":"SOL0001026",&#13;
-"PECveUsuario":"TREXO",&#13;
-"PSCod_Resp":"",&#13;
-"PSDesc_Procesoa":"",&#13;
-"PEDescRechazo":"sUPER Rechazado"&#13;
+"PECveEntidad":"${PECveEntidad}",&#13;
+"PEIdCuenta":"${PEIdCuenta}",&#13;
+"PEIdBanco":"${PEIdBanco}",&#13;
+"PEReferenciaBco":"${PEReferenciaBco}",&#13;
+"PERefNumCto":"${PERefNumCto}",&#13;
+"PEBCommit":"${PEBCommit}",&#13;
+"peStatusSolicitud":"${peStatusSolicitud}",&#13;
+"peIdSolicitud":"${peIdSolicitud}",&#13;
+"PECveUsuario":"${PECveUsuario}",&#13;
+"PSCod_Resp":"${PSCod_Resp}",&#13;
+"PSDesc_Procesoa":"${PSDesc_Procesoa}",&#13;
+"PEDescRechazo":"${PEDescRechazo}"&#13;
 }</content>
         <function_name>mnx_scdb_actualizar_solicitud_post</function_name>
         <http_method>post</http_method>
@@ -24,20 +24,20 @@
         <oauth2_profile/>
         <protocol_name/>
         <qualified_name>mnx_scdb_actualizar_solicitud [ mnx_scdb_actualizar_solicitud_post ]</qualified_name>
-        <rest_endpoint>https://prepro.apis.monex.com.mx/api-tesoreria-solictud-aclaracion-deposito/tesoreria/crearsolicituddemo</rest_endpoint>
+        <rest_endpoint>https://prepro.apis.monex.com.mx/api-tesoreria-solictud-aclaracion-deposito/tesoreria/solicitud/confirmar</rest_endpoint>
         <rest_message display_value="mnx_scdb_actualizar_solicitud">b7b0ee6bdb8d2010741ccc303996199f</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-17 04:43:08</sys_created_on>
         <sys_id>629071abdb84b010741ccc30399619d2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>mnx_scdb_actualizar_solicitud_post</sys_name>
         <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
         <sys_policy/>
         <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
         <sys_update_name>sys_rest_message_fn_629071abdb84b010741ccc30399619d2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-01 04:29:13</sys_updated_on>
+        <sys_updated_on>2021-11-15 06:02:45</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server/>
         <use_mutual_auth>false</use_mutual_auth>
