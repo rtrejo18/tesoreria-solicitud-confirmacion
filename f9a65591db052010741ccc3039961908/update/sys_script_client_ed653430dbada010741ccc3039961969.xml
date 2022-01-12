@@ -30,7 +30,7 @@
 		ab.addParam("peIdSolicitud",g_form.getValue("number"));
 		ab.addParam("PEIdCuenta",g_form.getValue("cuenta"));
 		ab.addParam("PEIdBanco",g_form.getValue("banco"));
-		ab.addParam("PEReferenciaBco",'');
+		ab.addParam("PEReferenciaBco",g_form.getValue("referencia"));
 		ab.addParam("PERefNumCto",g_form.getValue("n_mero_de_contrato"));
 		ab.addParam("PEBCommit",g_form.getValue("V"));
 		ab.addParam("peStatusSolicitud",'PE');
@@ -66,7 +66,7 @@
 		ab.addParam("peIdSolicitud",g_form.getValue("number"));
 		ab.addParam("PEIdCuenta",g_form.getValue("cuenta"));
 		ab.addParam("PEIdBanco",g_form.getValue("banco"));
-		ab.addParam("PEReferenciaBco",'');
+		ab.addParam("PEReferenciaBco",g_form.getValue("referencia"));
 		ab.addParam("PERefNumCto",g_form.getValue("n_mero_de_contrato"));
 		ab.addParam("PEBCommit",g_form.getValue("V"));
 		ab.addParam("peStatusSolicitud",g_form.getValue('estatus'));
@@ -143,7 +143,7 @@ function validacion() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ed653430dbada010741ccc3039961969</sys_id>
-        <sys_mod_count>295</sys_mod_count>
+        <sys_mod_count>296</sys_mod_count>
         <sys_name>On_Submit</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
@@ -151,7 +151,7 @@ function validacion() {
         <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
         <sys_update_name>sys_script_client_ed653430dbada010741ccc3039961969</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-30 07:02:33</sys_updated_on>
+        <sys_updated_on>2022-01-12 22:56:03</sys_updated_on>
         <table>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</table>
         <type>onSubmit</type>
         <ui_type>0</ui_type>
