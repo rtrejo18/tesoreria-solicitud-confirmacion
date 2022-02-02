@@ -27,7 +27,7 @@
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
-        <from/>
+        <from>rtrejo.zoe@gmail.com</from>
         <generation_type>engine</generation_type>
         <importance/>
         <include_attachments>true</include_attachments>
@@ -35,7 +35,7 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p><br /></p>
+        <message_html><![CDATA[<p><img style="align: baseline;" title="" src="monex.jpgx" alt="" width="393" height="88" align="baseline" border="" hspace="" vspace="" /></p>
 <table style="border-collapse: collapse; width: 47.69%; height: 132px;" border="1">
 <tbody>
 <tr style="height: 11px;">
@@ -85,12 +85,12 @@
         <push_message_only>false</push_message_only>
         <recipient_fields/>
         <recipient_groups/>
-        <recipient_users>rtrejom_ext@monex.com.mx,rtrejo.zoe@gmail.com</recipient_users>
-        <reply_to/>
+        <recipient_users>rtrejom_ext@monex.com.mx</recipient_users>
+        <reply_to>rtrejo.zoe@gmail.com</reply_to>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>ID Solicitud Confirmación: ${number}</subject>
+        <subject>ID Solicitud Confirmación: ${number} Estatus: ${estatus}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -98,7 +98,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3060f9ecdbfc3010c0ee1c97059619ef</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Solicitud de confirmación</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
@@ -106,7 +106,7 @@
         <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
         <sys_update_name>sysevent_email_action_3060f9ecdbfc3010c0ee1c97059619ef</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-30 06:06:01</sys_updated_on>
+        <sys_updated_on>2022-02-02 05:49:06</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
