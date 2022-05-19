@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Click the 'Confirm' modal action within the modal in 'Tesorería/Autorizar Pagos Nacionales'
+With a failure timeout of 5 Seconds
+Assert the modal is not closed after 5 Seconds</description>
+        <display_name>Click Modal Button</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <snapshot/>
+        <step_config display_value="Click Modal Button">22aed143dfe0220062fe6c7a4df2639d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 21:38:57</sys_created_on>
+        <sys_id>a57e0a652f230110052070682799b60b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Click Modal Button</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_update_name>sys_atf_step_a57e0a652f230110052070682799b60b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 21:38:57</sys_updated_on>
+        <table/>
+        <test display_value="MNX_SCPN_Subir_archivo">2f86f8912fa30110052070682799b6ac</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=a57e0a652f230110052070682799b60b"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a57e0a652f230110052070682799b60b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 21:38:57</sys_created_on>
+        <sys_id>321f0e652f230110052070682799b649</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 21:38:57</sys_updated_on>
+        <value>modal_not_closed</value>
+        <variable display_value="Assert type">22cf38c26721130091d005225685ef81</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a57e0a652f230110052070682799b60b</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 21:38:57</sys_created_on>
+        <sys_id>321f0e652f230110052070682799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 21:38:57</sys_updated_on>
+        <value/>
+        <variable display_value="Modal values">d7c942e753a33300ac15ddeeff7b128e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a57e0a652f230110052070682799b60b</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 21:38:57</sys_created_on>
+        <sys_id>7e1f0e652f230110052070682799b649</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 21:38:57</sys_updated_on>
+        <value>confirm</value>
+        <variable display_value="Modal action">e5a3e12353633300ac15ddeeff7b125c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a57e0a652f230110052070682799b60b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 21:38:57</sys_created_on>
+        <sys_id>b61f0e652f230110052070682799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 21:38:57</sys_updated_on>
+        <value>874ad840671022008b52f3b457415ab5</value>
+        <variable display_value="UI page">6fe5aad0c3302200f25d174292d3aeba</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a57e0a652f230110052070682799b60b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 21:38:57</sys_created_on>
+        <sys_id>ba1f0e652f230110052070682799b649</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 21:38:57</sys_updated_on>
+        <value>544b5115db052010741ccc30399619a1</value>
+        <variable display_value="Form UI">e9b1cdde53233300ac15ddeeff7b12c2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a57e0a652f230110052070682799b60b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 21:38:57</sys_created_on>
+        <sys_id>f21f0e652f230110052070682799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 21:38:57</sys_updated_on>
+        <value>1970-01-01 00:00:05</value>
+        <variable display_value="Assertion timeout">6354395e6761130091d005225685ef4e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a57e0a652f230110052070682799b60b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 21:38:57</sys_created_on>
+        <sys_id>f61f0e652f230110052070682799b649</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 21:38:57</sys_updated_on>
+        <value/>
+        <variable display_value="Button">a325ae60c3302200f25d174292d3aebf</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</application>
+        <file_path/>
+        <instance_id>814c1a35dbab1b48ff27d5b0cf9619e9</instance_id>
+        <instance_name>dev67475</instance_name>
+        <name>sys_atf_step_a57e0a652f230110052070682799b60b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Click the 'Confirm' modal action within the modal in 'Tesorería/Autorizar Pagos Nacionales'
+With a failure timeout of 5 Seconds
+Assert the modal is not closed after 5 Seconds</description><display_name>Click Modal Button</display_name><inputs/><mugshots_cache_json/><notes/><order>4</order><snapshot/><step_config display_value="Click Modal Button">22aed143dfe0220062fe6c7a4df2639d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-18 21:38:57</sys_created_on><sys_id>a57e0a652f230110052070682799b60b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Click Modal Button</sys_name><sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package><sys_policy/><sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope><sys_update_name>sys_atf_step_a57e0a652f230110052070682799b60b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-18 21:38:57</sys_updated_on><table/><test display_value="MNX_SCPN_Subir_archivo">2f86f8912fa30110052070682799b6ac</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=a57e0a652f230110052070682799b60b"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a57e0a652f230110052070682799b60b</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-18 21:38:57</sys_created_on><sys_id>321f0e652f230110052070682799b649</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-18 21:38:57</sys_updated_on><value>modal_not_closed</value><variable display_value="Assert type">22cf38c26721130091d005225685ef81</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a57e0a652f230110052070682799b60b</document_key><order>250</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-18 21:38:57</sys_created_on><sys_id>321f0e652f230110052070682799b64a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-18 21:38:57</sys_updated_on><value/><variable display_value="Modal values">d7c942e753a33300ac15ddeeff7b128e</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a57e0a652f230110052070682799b60b</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-18 21:38:57</sys_created_on><sys_id>7e1f0e652f230110052070682799b649</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-18 21:38:57</sys_updated_on><value>confirm</value><variable display_value="Modal action">e5a3e12353633300ac15ddeeff7b125c</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a57e0a652f230110052070682799b60b</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-18 21:38:57</sys_created_on><sys_id>b61f0e652f230110052070682799b64a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-18 21:38:57</sys_updated_on><value>874ad840671022008b52f3b457415ab5</value><variable display_value="UI page">6fe5aad0c3302200f25d174292d3aeba</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a57e0a652f230110052070682799b60b</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-18 21:38:57</sys_created_on><sys_id>ba1f0e652f230110052070682799b649</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-18 21:38:57</sys_updated_on><value>544b5115db052010741ccc30399619a1</value><variable display_value="Form UI">e9b1cdde53233300ac15ddeeff7b12c2</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a57e0a652f230110052070682799b60b</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-18 21:38:57</sys_created_on><sys_id>f21f0e652f230110052070682799b64a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-18 21:38:57</sys_updated_on><value>1970-01-01 00:00:05</value><variable display_value="Assertion timeout">6354395e6761130091d005225685ef4e</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a57e0a652f230110052070682799b60b</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-18 21:38:57</sys_created_on><sys_id>f61f0e652f230110052070682799b649</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-18 21:38:57</sys_updated_on><value/><variable display_value="Button">a325ae60c3302200f25d174292d3aebf</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1845212301</payload_hash>
+        <record_name>Click Modal Button</record_name>
+        <reverted_from/>
+        <source>5c98964adb792010741ccc3039961949</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 21:38:57</sys_created_on>
+        <sys_id>f21f0e652f230110052070682799b64d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180d91c14ce0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 21:38:57</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>3e1f0e65c2230110530237e42fad334c</update_guid>
+        <update_guid_history>3e1f0e65c2230110530237e42fad334c:1845212301</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 21:43:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>84da785afcad46f08e2b8334af5e4690</sys_id>
+        <sys_metadata>a57e0a652f230110052070682799b60b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Click Modal Button</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_scope_delete display_value="">06afc784d72d4ef082464d42f80dae40</sys_scope_delete>
+        <sys_update_name>sys_atf_step_a57e0a652f230110052070682799b60b</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_a57e0a652f230110052070682799b60b">f21f0e652f230110052070682799b64d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 21:43:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

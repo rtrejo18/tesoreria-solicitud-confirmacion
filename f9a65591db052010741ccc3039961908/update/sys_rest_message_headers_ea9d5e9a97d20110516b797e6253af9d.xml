@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
+    <sys_rest_message_headers action="INSERT_OR_UPDATE">
+        <name>client_secret</name>
+        <rest_message display_value="mnx_scdb_obtener_contrato">c5af6aabdbcd2010741ccc30399619fd</rest_message>
+        <sys_class_name>sys_rest_message_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-20 03:20:00</sys_created_on>
+        <sys_id>ea9d5e9a97d20110516b797e6253af9d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>client_secret</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_update_name>sys_rest_message_headers_ea9d5e9a97d20110516b797e6253af9d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 05:51:34</sys_updated_on>
+        <value>002Ab73FEBDB492ea4C83de6683c6d43</value>
+    </sys_rest_message_headers>
+</record_update>
