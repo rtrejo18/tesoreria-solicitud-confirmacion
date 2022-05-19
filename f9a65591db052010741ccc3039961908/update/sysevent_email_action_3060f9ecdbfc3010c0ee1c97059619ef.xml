@@ -27,7 +27,7 @@
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
-        <from>rtrejo.zoe@gmail.com</from>
+        <from>confirmaciones_nac@monex.com.mx</from>
         <generation_type>engine</generation_type>
         <importance/>
         <include_attachments>true</include_attachments>
@@ -85,8 +85,8 @@
         <push_message_only>false</push_message_only>
         <recipient_fields/>
         <recipient_groups/>
-        <recipient_users>rtrejom_ext@monex.com.mx</recipient_users>
-        <reply_to>rtrejo.zoe@gmail.com</reply_to>
+        <recipient_users>rtrejom_ext@monex.com.mx,6816f79cc0a8016401c5a33be04be441,confirmaciones_nac@monex.com.mx</recipient_users>
+        <reply_to>confirmaciones_nac@monex.com.mx,rtrejom_ext@monex.com.mx</reply_to>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
@@ -98,7 +98,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3060f9ecdbfc3010c0ee1c97059619ef</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Solicitud de confirmación</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
@@ -106,7 +106,7 @@
         <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
         <sys_update_name>sysevent_email_action_3060f9ecdbfc3010c0ee1c97059619ef</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-02 05:49:06</sys_updated_on>
+        <sys_updated_on>2022-05-19 05:56:07</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Click UI action 'Editar Solicitud' on 'Solicitud de confirmación de depósitos bancarios' form</description>
+        <display_name>Click a UI Action</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <snapshot/>
+        <step_config display_value="Click a UI Action">0f4a128297202200abe4bb7503ac4af0</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 04:06:59</sys_created_on>
+        <sys_id>3eb7aba52f270110052070682799b646</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Click a UI Action</sys_name>
+        <sys_package display_value="Tesorería/Autorizar Pagos Nacionales" source="x_552735_tesorer_a">f9a65591db052010741ccc3039961908</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tesorería/Autorizar Pagos Nacionales">f9a65591db052010741ccc3039961908</sys_scope>
+        <sys_update_name>sys_atf_step_3eb7aba52f270110052070682799b646</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 04:09:34</sys_updated_on>
+        <table>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</table>
+        <test display_value="MNX_SCPN_Buscar_Contrato">80962f652f270110052070682799b6cd</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=3eb7aba52f270110052070682799b646"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3eb7aba52f270110052070682799b646</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 04:06:59</sys_created_on>
+        <sys_id>7ae76fa52f270110052070682799b66c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 04:06:59</sys_updated_on>
+        <value>x_552735_tesorer_a_solicitud_de_confirmaci_n_de_dep_sitos_bancarios</value>
+        <variable display_value="Table">3eee292353e0220002c6435723dc343c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3eb7aba52f270110052070682799b646</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 04:06:59</sys_created_on>
+        <sys_id>b6e76fa52f270110052070682799b66c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 04:06:59</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">535cb5ab53233300f06fddeeff7b1247</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3eb7aba52f270110052070682799b646</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 04:06:59</sys_created_on>
+        <sys_id>f2e76fa52f270110052070682799b66c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 04:08:41</sys_updated_on>
+        <value>2a0c0cacdb61a010741ccc30399619ef</value>
+        <variable display_value="UI action">7c5f6d2353e0220002c6435723dc34f6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3eb7aba52f270110052070682799b646</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-19 04:06:59</sys_created_on>
+        <sys_id>fee76fa52f270110052070682799b66b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-19 04:09:34</sys_updated_on>
+        <value/>
+        <variable display_value="Assert type">7600f16353e0220002c6435723dc34d5</variable>
+    </sys_variable_value>
+</record_update>
